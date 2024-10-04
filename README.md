@@ -11,6 +11,17 @@ This program reads in a dataset of used car pricing information, trains a random
 - https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.evaluation.RegressionEvaluator.html
 - https://stackoverflow.com/questions/7370801/how-do-i-measure-elapsed-time-in-python
 
+Code is contained in the file Pyspark_forest.py
+
+Download dataset below and put it in the same directory as Pyspark_forest.py, and dataset file should be named: cleaned_data_CS532.csv
+
+Link to data set that has been further cleaned (the one to use with the program):
+https://drive.google.com/file/d/1X4a0lvQ9_nXYGUkL6uiyy5Zvu2wYlhEP/view?usp=sharing
+
+Original Dataset from Kaggle (for reference but not the one to use with the program):
+https://www.kaggle.com/datasets/tunguz/used-car-auction-prices/data
+
+# Instructions
 Instructions for running code: in an Ubuntu VM with python and pip installed, install numpy and pandas.
 To run, use command python3 Pyspark_forest.py
 
