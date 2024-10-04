@@ -1,16 +1,15 @@
-# Matthew Spahl, Emerson Kiefer, Kevin Martell Luya, Owen Tibby
+Group: Matthew Spahl, Emerson Kiefer, Kevin Martell Luya, Owen Tibby
 # CS 532 Final Project
 
-# This program reads in a dataset of used car pricing information, trains a random forest on that dataset,
-# and then predicts the RV_percent (retained value percent) for each sample in the test data.
+This program reads in a dataset of used car pricing information, trains a random forest on that dataset, and then predicts the RV_percent (retained value percent) for each sample in the test data.
 
 
-# references to learn how to use a random forest classifier in Pyspark:
-#https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db
-#https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.regression.RandomForestRegressor.html
-#https://www.machinelearningplus.com/pyspark/pyspark-onehot-encoding/
-#https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.evaluation.RegressionEvaluator.html
-#https://stackoverflow.com/questions/7370801/how-do-i-measure-elapsed-time-in-python
+# References
+- https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db
+- https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.regression.RandomForestRegressor.html
+- https://www.machinelearningplus.com/pyspark/pyspark-onehot-encoding/
+- https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.evaluation.RegressionEvaluator.html
+- https://stackoverflow.com/questions/7370801/how-do-i-measure-elapsed-time-in-python
 
 Instructions for running code: in an Ubuntu VM with python and pip installed, install numpy and pandas.
 To run, use command python3 Pyspark_forest.py
