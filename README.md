@@ -1,4 +1,3 @@
-Group: Matthew Spahl, Emerson Kiefer, Kevin Martell Luya, Owen Tibby
 # CS 532 Final Project
 
 This program reads in a dataset of used car pricing information, trains a random forest on that dataset, and then predicts the RV_percent (retained value percent) for each sample in the test data.
